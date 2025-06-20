@@ -36,6 +36,6 @@ Replace jhjcpishva with your actual GitHub organization or username.
 
 ## Notes
 
-- The platforms input is optional; defaults to `linux/amd64`, `linux/arm64`
+- The platforms input is optional; defaults to `linux/amd64,linux/arm64`
 - This workflow automatically tags the image as `latest` or with the pushed tag name (e.g. `v1.2.3`)
 - Pull requests only run the build (not push)
