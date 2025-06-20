@@ -13,6 +13,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      image_name: ${{ steps.set-image-name.outputs.image_name }}
     steps:
       - uses: actions/checkout@v4
       - uses: docker/setup-qemu-action@v3
